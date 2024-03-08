@@ -1,4 +1,8 @@
 body{
+    margin:0;
+    padding: 0;
+}
+main{
     margin: 20px 150px;
 }
 header{
@@ -66,7 +70,7 @@ fieldset h4 a{
     height: 50px;
     border-radius: 5px;
     border: 1px solid #e6e6e6;
-    background-color: #fafafa;
+    background-color: rgb(235, 235, 235)
 }
 .login{
     margin-left: 15px;
@@ -107,6 +111,8 @@ footer .row ul li{
 }
 .row{
     display: flex;
+    gap: 50px;
+    margin-left: 100px;
 }
 .der{
     display: flex;
