@@ -81,6 +81,7 @@ fieldset h4 a{
     background-color: #87c349;
     border-radius: 5px;
     border: 0.5px solid gray;
+    margin-bottom: 25px;
 }
 .bad{
     background-color: #2b3376;
@@ -127,4 +128,7 @@ footer .row ul li{
 .rek{
     color: white;
     margin-left: 40px;
+}
+fieldset{
+    border: 1px solid rgb(188, 188, 188);
 }
