@@ -3,29 +3,38 @@ body{
     padding: 0;
 }
 main{
-    margin: 20px 150px;
+    margin: 20px 200px;
 }
 header{
     display: flex;
-    gap: 0px;
+    gap: 15px;
     justify-content: center;
     margin: 40px 0px;
     height: 50px;
+    padding: 0px 200px;
     box-shadow: 0px 16px 8px 0px rgba(34, 60, 80, 0.2);
 }
 header nav{
     display: flex;
     gap: 10px;
 }
-header nav ul{
+header ul{
     display: flex;
     gap: 20px;
     list-style: none;
     color: gray;
 }
-header nav select{
+header select{
     border: none;
     color: aqua;
+}
+header{
+    display: flex;
+    padding: 0px 380px;
+}
+.butn{
+    display: flex;
+    gap: 50px;
 }
 .rol{
     color: #00bae5;
@@ -33,6 +42,7 @@ header nav select{
     border-radius: 10px;
     width: 80px;
     height: 40px;
+    background-color: #fff;
 }
 .roll{
     color: #19b47b;
@@ -40,7 +50,17 @@ header nav select{
     border-radius: 10px;
     width: 140px;
     height: 40px;
+    background-color: #fff;
 }
+header .roll:hover{
+    background-color: #19b47b;
+    color: white;
+}
+header .rol:hover{
+    background-color: #00bae5;
+    color: white;
+}
+
 .rolle{
     color: #19b47b;
     border: 2px solid #19b47b;
@@ -112,8 +132,9 @@ footer .row ul li{
 }
 .row{
     display: flex;
-    gap: 50px;
-    margin-left: 100px;
+    gap: 0px;
+    justify-content: space-between;
+    margin: 0px 150px;
 }
 .der{
     display: flex;
@@ -131,4 +152,12 @@ footer .row ul li{
 }
 fieldset{
     border: 1px solid rgb(188, 188, 188);
+}
+.norm i{
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 30px;
+}
+.k a{
+    color: black;
 }
